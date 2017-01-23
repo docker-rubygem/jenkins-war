@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.406
+ENV VERSION=1.407
 
 RUN gem install jenkins-war --version ${VERSION} --no-format-exec
 
